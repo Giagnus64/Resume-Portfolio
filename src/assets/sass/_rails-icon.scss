@@ -1,5 +1,9 @@
-.rails object svg g:hover{
-    fill:#6f42c1;
+.rails svg{
+    &:hover{
+        & path{
+            fill: $primary;
+        }
+    }
 }
 
 .rails object svg polygon{

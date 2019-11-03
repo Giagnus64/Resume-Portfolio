@@ -1,8 +1,9 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import rails from '../assets/images/Rails.svg'
-import ruby from '../assets/images/Ruby.svg'
+import RubyIcon from '../components/RubyIcon'
+import RailsIcon from '../components/RailsIcon'
+
 //import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -129,10 +130,10 @@ const IndexPage = () => (
               <i className="fab fa-npm"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab rails"><object type="image/svg+xml" data={rails} className="fab"></object></i>
+              <i className="fab rails"><RubyIcon/></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab rails"><object type="image/svg+xml" data={ruby} className="fab rails"></object></i>
+              <i className="fab rails"><RailsIcon/></i>
             </li>
           </ul>
 

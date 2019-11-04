@@ -172,7 +172,6 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Flatiron School</h3>
               <div className="subheading mb-3">Software Engineering Intensive</div>
-              <div>Software Engineering Intensive</div>
             
             </div>
             <div className="resume-date text-md-right">

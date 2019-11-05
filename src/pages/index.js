@@ -24,7 +24,9 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Full stack web developer with experience in Rails, JavaScript, and React. My music production background strengthens my ability to focus on details while being mindful of the big picture. Impressed by the utility of audio/visual technologies in project creation, I transitioned into web development to build software that impacts global issues.
+            Full stack web developer experienced in Rails, JavaScript, and React.
+With a music production background, I am experienced in detail-oriented, systematic thinking while being mindful of larger goals. My transition to web development is a product of my experience with audio/visual technologies in the application of impactful project execution.
+
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -56,7 +58,7 @@ const IndexPage = () => (
                 <li>Developed a Rails API backend with custom routes and search functionality</li>
                 <li>Generated UI using React, Bulma CSS framework, and Redux</li>
                 <li>Utilized Edamam API to search recipes by ingredient</li>
-                <li>Added image upload functionality using Google’s Firebase services</li>
+                <li>Leveraged Google's Firebase services for image upload functionality</li>
               </ul>
             </div>
             <div className="resume-date text-md-right">
@@ -122,9 +124,6 @@ const IndexPage = () => (
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
@@ -194,7 +193,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <hr className="m-0" />
+      {/* <hr className="m-0" />
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
@@ -215,7 +214,7 @@ const IndexPage = () => (
             advancements in the front-end web development world.
           </p>
         </div>
-      </section>
+      </section> */}
 
     </div>
   </Layout>

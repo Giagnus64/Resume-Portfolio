@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.png';
 import face from '../assets/images/face.jpeg';
 
 import config from '../../config';
@@ -16,7 +15,6 @@ export class Sidebar extends Component {
         { content: 'Projects', href: 'projects' },
         { content: 'Skills', href: 'skills' },
         { content: 'Education', href: 'education' },
-        { content: 'Interests', href: 'interests' },
       ],
     };
   }

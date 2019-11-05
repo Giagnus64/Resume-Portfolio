@@ -62,7 +62,7 @@ With a music production background, I am experienced in detail-oriented, systema
               </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary"><a href="https://github.com/Giagnus64/Mangia-API">Github</a> | <a href="https://mangia-client.herokuapp.com/login">Live</a></span>
+              <span className="text-primary"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Giagnus64/Mangia-API">Github</a> | <a target="_blank" rel="noopener noreferrer" href="https://mangia-client.herokuapp.com/login">Live</a></span>
             </div>
           </div>
           
@@ -78,7 +78,7 @@ With a music production background, I am experienced in detail-oriented, systema
               </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary"><a href="https://github.com/Giagnus64/Bedfellows-Front-End">Github</a> | <a href="https://bedfellows-client.herokuapp.com/">Live</a></span>
+              <span className="text-primary"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Giagnus64/Bedfellows-Front-End">Github</a> | <a target="_blank" rel="noopener noreferrer" href="https://bedfellows-client.herokuapp.com/">Live</a></span>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ With a music production background, I am experienced in detail-oriented, systema
               </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary"><a href="https://github.com/Giagnus64/Chitter-Chatter-Front-End">Github</a> | <a href="#">Live</a></span>
+              <span className="text-primary"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Giagnus64/Chitter-Chatter-Front-End">Github</a> | <a target="_blank" rel="noopener noreferrer" href="https://chitterchatter.netlify.com">Live</a></span>
             </div>
           </div>
         </div>

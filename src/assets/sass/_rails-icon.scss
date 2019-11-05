@@ -1,0 +1,11 @@
+.rails svg{
+    &:hover{
+        & path{
+            fill: $primary;
+        }
+    }
+}
+
+.rails object svg polygon{
+    fill: #868e96;
+}

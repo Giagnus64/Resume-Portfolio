@@ -63,6 +63,9 @@ With a music production background, I am experienced in detail-oriented, systema
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Giagnus64/Mangia-API">Github</a> | <a target="_blank" rel="noopener noreferrer" href="https://mangia-client.herokuapp.com/login">Live</a></span>
+              <div className="resume-video m-2">
+                <iframe title="Mangia-Demo-Video" width="300" height="300" src="https://www.youtube.com/embed/Oh4hvCiwSOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
           
@@ -79,6 +82,9 @@ With a music production background, I am experienced in detail-oriented, systema
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Giagnus64/Bedfellows-Front-End">Github</a> | <a target="_blank" rel="noopener noreferrer" href="https://bedfellows-client.herokuapp.com/">Live</a></span>
+              <div className="resume-video m-2">
+                <iframe title="bedfellows-demo-video"width="300" height="300" src="https://www.youtube.com/embed/4jOM8oaO5dY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
 
@@ -93,8 +99,11 @@ With a music production background, I am experienced in detail-oriented, systema
                 <li>Linked sounds to keypresses using JavaScript music library Howler.js</li>
               </ul>
             </div>
-            <div className="resume-date text-md-right">
+            <div className="resume-date text-md-right d-flex flex-column justify-content-between">
               <span className="text-primary"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Giagnus64/Chitter-Chatter-Front-End">Github</a> | <a target="_blank" rel="noopener noreferrer" href="https://chitterchatter.netlify.com">Live</a></span>
+              <div className="resume-video m-2">
+                <iframe title="chitter-chatter-demo-video" width="300" height="300" src="https://www.youtube.com/embed/LXnu3VkGr04" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>

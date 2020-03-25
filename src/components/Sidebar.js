@@ -32,7 +32,7 @@ export class Sidebar extends Component {
           </span>
           <span className="d-none d-lg-block">
             <img
-              className="img-fluid img-profile rounded-circle mx-auto mb-2"
+              className="img-fluid img-profile rounded mx-auto mb-2"
               src={headshot}
               alt=""
             />

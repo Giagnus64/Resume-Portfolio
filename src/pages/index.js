@@ -81,28 +81,36 @@ const IndexPage = () => (
               </i>
             </li>
           </ul>
-          <p>Redux | TypeScript | Jest | Express | Git</p>
+          
 
           <div className="subheading mb-3">Proficiencies</div>
           <ul className="fa-ul mb-0">
             <li>
+                <i className="fa-li fa fa-check"></i>
+                <strong>Hardware |</strong> Installation &#9900; Maintenance &#9900; Troubleshooting
+            </li>
+            <li>
+                <i className="fa-li fa fa-check"></i>
+                <strong>Software |</strong> Microsoft Office &#9900; Google Suite &#9900; Troubleshooting 
+            </li>
+            <li>
               <i className="fa-li fa fa-check"></i>
-              <strong>Languages |</strong> Italian - <em>Native Speaker</em>,
+              <strong>Operating Systems |</strong> Windows &#9900; MacOS &#9900; Linux 
+          </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              <strong>General Skills |</strong> Customer Service &#9900; Attention to Detail &#9900;
+              Communication 
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              <strong>Languages |</strong> Italian - <em>Native Speaker</em> &#9900;
               Spanish - <em>Intermediate</em>
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              <strong>A/V Tools |</strong> Pro Tools, Logic Pro X, Audacity,
+              <strong>A/V Tools |</strong> Pro Tools &#9900; Logic Pro X &#9900; Audacity &#9900;
               Final Cut Pro
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              <strong>Retail Experience |</strong> Customer Service, Sales,
-              Store Management
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              <strong>Music |</strong> Percussion/Drums - <em>17 years</em>
             </li>
           </ul>
         </div>

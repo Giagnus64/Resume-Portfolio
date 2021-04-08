@@ -24,12 +24,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Full Stack Software Engineer experienced in Rails, JavaScript, and
-            React. With a music production background, I am experienced in
-            detail-oriented, technical thinking while being mindful of larger
-            goals. My transition to software development is a product of my
-            experience with audio/visual technologies in the application of
-            curious project execution.
+          Musician and Software Engineer transitioning into IT technologies. With a background in technology-based customer service, I excel in communicating complex ideas and working with others to find innovative solutions.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -41,6 +36,75 @@ const IndexPage = () => (
               );
             })}
           </div>
+        </div>
+      </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="skills"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Skills</h2>
+
+          <div className="subheading mb-3">
+            Programming Languages &amp; Tools
+          </div>
+          <ul className="list-inline dev-icons">
+            <li className="list-inline-item">
+              <i className="fab fa-html5"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-css3-alt"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-js-square"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-react"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-npm"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-node"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab rails">
+                <RubyIcon />
+              </i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab rails">
+                <RailsIcon />
+              </i>
+            </li>
+          </ul>
+          <p>Redux | TypeScript | Jest | Express | Git</p>
+
+          <div className="subheading mb-3">Proficiencies</div>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              <strong>Languages |</strong> Italian - <em>Native Speaker</em>,
+              Spanish - <em>Intermediate</em>
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              <strong>A/V Tools |</strong> Pro Tools, Logic Pro X, Audacity,
+              Final Cut Pro
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              <strong>Retail Experience |</strong> Customer Service, Sales,
+              Store Management
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              <strong>Music |</strong> Percussion/Drums - <em>17 years</em>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -221,75 +285,6 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="skills"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
-
-          <div className="subheading mb-3">
-            Programming Languages &amp; Tools
-          </div>
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-js-square"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab rails">
-                <RubyIcon />
-              </i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab rails">
-                <RailsIcon />
-              </i>
-            </li>
-          </ul>
-          <p>Redux | TypeScript | Jest | Express | Git</p>
-
-          <div className="subheading mb-3">Proficiencies</div>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              <strong>Languages |</strong> Italian - <em>Native Speaker</em>,
-              Spanish - <em>Intermediate</em>
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              <strong>A/V Tools |</strong> Pro Tools, Logic Pro X, Audacity,
-              Final Cut Pro
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              <strong>Retail Experience |</strong> Customer Service, Sales,
-              Store Management
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              <strong>Music |</strong> Percussion/Drums - <em>17 years</em>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="education"
       >
         <div className="w-100">
@@ -325,7 +320,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      {/* <hr className="m-0" />
+    <hr className="m-0" />
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
@@ -334,19 +329,10 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
-          </p>
-          <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            I've been a drummer for almost 20 years and obsessed with music for my whole life. I've performed in a handful of bands since high school and made a few albums with my most recent outfit, <a href="https://spittunes.bandcamp.com/album/ego-in-drag">Spit</a>. In my downtime, I'm usually playing video games, getting together with friends for some tabletop shenanigans, or working on DIY projects at home. I've become a hockey fan ever since my hometown finally got a team (Go VGK!).   
           </p>
         </div>
-      </section> */}
+      </section> 
     </div>
   </Layout>
 );

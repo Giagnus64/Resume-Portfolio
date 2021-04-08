@@ -21,12 +21,7 @@ module.exports = {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/gnuschese/',
-    },
-    {
-      icon: 'fa-medium',
-      name: 'Medium',
-      url: 'https://medium.com/@gianfranconuschese',
-    },
+    }
   ],
   email: 'gianfranconuschese@gmail.com',
 };

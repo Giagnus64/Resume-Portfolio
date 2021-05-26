@@ -7,6 +7,7 @@ import RailsIcon from '../components/RailsIcon'
 //import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import aplus from '../assets/images/Aplus.png';
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -24,7 +25,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-          Musician and Software Engineer transitioning into IT technologies. With a background in technology-based customer service, I excel in communicating complex ideas and working with others to find innovative solutions.
+          Musician and Software Engineer transitioning into the IT industry. With a background in technology-based customer service, I excel in communicating complex ideas and working with others to find innovative solutions.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -83,8 +84,8 @@ const IndexPage = () => (
           </ul>
           
 
-          <div className="subheading mb-3">Proficiencies</div>
-          <ul className="fa-ul mb-0">
+        <div className="subheading mb-3">Proficiencies</div>
+          <ul className="fa-ul mb-3">
             <li>
                 <i className="fa-li fa fa-check"></i>
                 <strong>Hardware |</strong> Installation &#9900; Maintenance &#9900; Troubleshooting
@@ -113,6 +114,18 @@ const IndexPage = () => (
               Final Cut Pro
             </li>
           </ul>
+
+          <div className="subheading mb-3">Certifications</div>
+          <a target ="_blank" href="https://www.credly.com/badges/f0ace356-40de-4691-9da5-2cef7b2b9158/public_url">
+            <img
+              height="128px"
+              width="128px"
+              className="img-fluid rounded  mb-2"
+              src={aplus}
+              alt="CompTIA A+ Certification Logo"
+            />
+          </a>
+          
         </div>
       </section>
 
